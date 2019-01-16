@@ -1,22 +1,22 @@
 # Mutex and Channel basics
 
 ### What is an atomic operation?
-> *Your answer here*
+> A operation is atomic if it is not aware of the existence of other tasks while it is running.
 
 ### What is a semaphore?
-> *Your answer here*
+> It is a way of limiting the number of consumers for a specific resource. Ex: to limit the number of simultaneous calls to a database in an application.
 
 ### What is a mutex?
-> *Your answer here*
+> Mutual exclusion is used to protect shared resources. It blocks the resources for all threads but one at once.
 
 ### What is the difference between a mutex and a binary semaphore?
-> *Your answer here*
+> Only the thread that locked or acquired the mutex can unlock it, while for a semaphore, a thread waiting on it can be signaled by a different thread. A mutex is a locking mechanism, the semaphore is a signaling mechanism.
 
 ### What is a critical section?
-> *Your answer here*
+> Sequence of statements that we need to execute indivisibly
 
 ### What is the difference between race conditions and data races?
- > *Your answer here*
+ > Race conditions is a flaw where timing/order of events affects the correctness of the program. Data races are when there are two accesses in a program where both target the same location
 
 ### List some advantages of using message passing over lock-based synchronization primitives.
 > *Your answer here*
