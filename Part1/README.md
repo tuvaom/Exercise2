@@ -19,7 +19,7 @@
  > Race conditions is a flaw where timing/order of events affects the correctness of the program. Data races are when there are two accesses in a program where both target the same location
 
 ### List some advantages of using message passing over lock-based synchronization primitives.
-> *Your answer here*
+> Tillater mer tydlige grenser for ansvar. Reduserer kompleksjonen av data og utførelse. Reduserer muligheten for å få tak i ting du ikke skal ha tak i, mere oversiktelig
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
-> *Your answer here*
+> Effektivitet. Performance. 
